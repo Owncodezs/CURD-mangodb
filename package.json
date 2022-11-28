@@ -1,0 +1,27 @@
+{
+  "name": "curd-mangodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "db_module.js",
+  "scripts": {
+    "start": "nodemon myserver.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Owncodezs/CURD-mangodb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Owncodezs/CURD-mangodb/issues"
+  },
+  "homepage": "https://github.com/Owncodezs/CURD-mangodb#readme",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "mongodb": "^4.12.1",
+    "nodemon": "^2.0.20",
+    "querystring": "^0.2.1",
+    "url": "^0.11.0"
+  }
+}
